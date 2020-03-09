@@ -1,6 +1,7 @@
 # GEOB-472-Lab-2
 # Hospital distributions of BC and their distances from The Queen Elizabeth Park
-it is the link for my interactive map: https://editor.p5js.org/soppp16/present/soNwpX-f
+it is the link for my interactive map: 
+![](GEOB472Lab2map.html)
 
 
 
