@@ -1,0 +1,1562 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="OGRGeoJSON" id="OGRGeoJSON">
+	<SimpleField name="OCCUPANT_NAME" type="string"></SimpleField>
+	<SimpleField name="PHYSICAL_ADDRESS" type="string"></SimpleField>
+	<SimpleField name="CONTACT_PHONE" type="string"></SimpleField>
+	<SimpleField name="LOCALITY" type="string"></SimpleField>
+	<SimpleField name="BUSINESS_CATEGORY_DESCRIPTION" type="string"></SimpleField>
+	<SimpleField name="KEYWORDS" type="string"></SimpleField>
+	<SimpleField name="DATE_UPDATED" type="string"></SimpleField>
+	<SimpleField name="LATITUDE" type="float"></SimpleField>
+	<SimpleField name="LONGITUDE" type="float"></SimpleField>
+	<SimpleField name="GEOCODING_METHOD_DESCRIPTION" type="string"></SimpleField>
+	<SimpleField name="HEALTH_AUTHORITY_NAME" type="string"></SimpleField>
+	<SimpleField name="HEALTH_SERVICE_DLVR_AREA_NAME" type="string"></SimpleField>
+	<SimpleField name="LOCAL_HEALTH_AREA_NAME" type="string"></SimpleField>
+	<SimpleField name="SEQUENCE_ID" type="int"></SimpleField>
+</Schema>
+<Folder><name>OGRGeoJSON</name>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Fort St. John General Hospital &amp; Peace Villa</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">8407 112 Avenue , Fort St. John, BC, Peace River North, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-262-5200</SimpleData>
+		<SimpleData name="LOCALITY">Peace River North</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Northern Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">56.256037</SimpleData>
+		<SimpleData name="LONGITUDE">-120.816344</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Northern Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Northeast</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Fort St. John</SimpleData>
+		<SimpleData name="SEQUENCE_ID">45</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-120.816361461036593,56.256043157254453</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Fraser Canyon Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">1275 7th Avenue, Hope, BC, Hope, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">604-869-5656</SimpleData>
+		<SimpleData name="LOCALITY">Hope</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Fraser Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">49.377254</SimpleData>
+		<SimpleData name="LONGITUDE">-121.423896</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Fraser Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Fraser East</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Hope</SimpleData>
+		<SimpleData name="SEQUENCE_ID">47</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-121.423911194337464,49.377259809683757</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">G.R. Baker Memorial Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">543 Front Street, Quesnel, BC, Quesnel, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-985-5600</SimpleData>
+		<SimpleData name="LOCALITY">Quesnel</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Northern Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">52.981336</SimpleData>
+		<SimpleData name="LONGITUDE">-122.499541</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Northern Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Northern Interior</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Quesnel</SimpleData>
+		<SimpleData name="SEQUENCE_ID">49</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.499557485181271,52.981341832045693</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Golden and District General Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">835 - 9th Avenue South, Golden, BC, Golden, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-344-5271</SimpleData>
+		<SimpleData name="LOCALITY">Golden</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Interior Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">51.297226</SimpleData>
+		<SimpleData name="LONGITUDE">-116.966551</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Interior Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">East Kootenay</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Golden</SimpleData>
+		<SimpleData name="SEQUENCE_ID">51</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-116.966565921020731,51.297232429263282</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Haida Gwaii Hospital and Health Centre - Xaayda Gwaay Ngaaysdll Naay</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">3209 Oceanview Drive, Queen Charlotte, BC, Queen Charlotte, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-559-4301</SimpleData>
+		<SimpleData name="LOCALITY">Queen Charlotte</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Northern Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">53.2548118</SimpleData>
+		<SimpleData name="LONGITUDE">-132.0705826</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Northern Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Northwest</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Queen Charlotte</SimpleData>
+		<SimpleData name="SEQUENCE_ID">53</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-132.070600536446875,53.254816378695587</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Invermere and District Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">850 - 10th Avenue, Invermere, BC, Invermere, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-342-9201</SimpleData>
+		<SimpleData name="LOCALITY">Invermere</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Interior Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">50.506757</SimpleData>
+		<SimpleData name="LONGITUDE">-116.033563</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Interior Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">East Kootenay</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Invermere</SimpleData>
+		<SimpleData name="SEQUENCE_ID">55</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-116.033577507691291,50.506763489127437</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Kelowna General Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">2268 Pandosy Street, Kelowna, BC, Central Okanagan, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-862-4000</SimpleData>
+		<SimpleData name="LOCALITY">Central Okanagan</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Interior Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">49.873421</SimpleData>
+		<SimpleData name="LONGITUDE">-119.493023</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Interior Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Okanagan</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Kelowna</SimpleData>
+		<SimpleData name="SEQUENCE_ID">57</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-119.493037992960026,49.873427057025602</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Kitimat General Hospital and Health Centre</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">920 Lahakas Blvd South, Kitimat, BC, Kitimat, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-632-2121</SimpleData>
+		<SimpleData name="LOCALITY">Kitimat</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Northern Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">54.049071</SimpleData>
+		<SimpleData name="LONGITUDE">-128.650101</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Northern Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Northwest</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Kitimat</SimpleData>
+		<SimpleData name="SEQUENCE_ID">59</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-128.650118820568139,54.049076048311974</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Kootenay Boundary Regional Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">1200 Hospital Bench, Trail, BC, Trail, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-368-3311</SimpleData>
+		<SimpleData name="LOCALITY">Trail</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Interior Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">49.103282</SimpleData>
+		<SimpleData name="LONGITUDE">-117.701662</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Interior Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Kootenay Boundary</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Trail</SimpleData>
+		<SimpleData name="SEQUENCE_ID">61</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-117.70167645722519,49.103288213217169</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Kootenay Lake Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">3 View Street, Nelson, BC, Nelson, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-352-3111</SimpleData>
+		<SimpleData name="LOCALITY">Nelson</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Interior Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">49.495119</SimpleData>
+		<SimpleData name="LONGITUDE">-117.28497</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Interior Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Kootenay Boundary</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Nelson</SimpleData>
+		<SimpleData name="SEQUENCE_ID">63</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-117.284984480009513,49.495125284106187</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Lady Minto Gulf Islands Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">135 Crofton Road, Saltspring Island, BC, Gulf Islands, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-538-4800</SimpleData>
+		<SimpleData name="LOCALITY">Gulf Islands</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Vancouver Island Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">48.861853</SimpleData>
+		<SimpleData name="LONGITUDE">-123.508673</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Vancouver Island Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">South Vancouver Island</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Salt Spring Island</SimpleData>
+		<SimpleData name="SEQUENCE_ID">65</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.508688395233108,48.861858545406946</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Langley Memorial Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">22051 Fraser Highway, Langley, BC, Langley, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">604-534-4121</SimpleData>
+		<SimpleData name="LOCALITY">Langley</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Fraser Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">49.0955343</SimpleData>
+		<SimpleData name="LONGITUDE">-122.6123209</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Fraser Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Fraser South</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Langley</SimpleData>
+		<SimpleData name="SEQUENCE_ID">67</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.61233621530981,49.095539959333152</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Lillooet Hospital and Health Centre</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">951 Murray Street, Lillooet, BC, Lillooet, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-256-4233</SimpleData>
+		<SimpleData name="LOCALITY">Lillooet</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Interior Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">50.689386</SimpleData>
+		<SimpleData name="LONGITUDE">-121.939232</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Interior Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Thompson Cariboo Shuswap</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Lillooet</SimpleData>
+		<SimpleData name="SEQUENCE_ID">69</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-121.939247652656633,50.68939181078791</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Lions Gate Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">231 E 15TH Street, North Vancouver, BC, North Vancouver, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">604-988-3131</SimpleData>
+		<SimpleData name="LOCALITY">North Vancouver</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Vancouver Coastal</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">49.321712</SimpleData>
+		<SimpleData name="LONGITUDE">-123.068235</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Vancouver Coastal</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">North Shore / Coast Garibaldi</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">North Vancouver</SimpleData>
+		<SimpleData name="SEQUENCE_ID">71</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.068250448812648,49.321717617065659</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">MacKenzie and District Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">45 Centennial Drive, MacKenzie, BC, Prince George, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-997-3263</SimpleData>
+		<SimpleData name="LOCALITY">Prince George</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Northern Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">55.33744</SimpleData>
+		<SimpleData name="LONGITUDE">-123.100679</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Northern Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Northern Interior</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">MacKenzie</SimpleData>
+		<SimpleData name="SEQUENCE_ID">73</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.100696486010008,55.33744582458057</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">McBride and District Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">1136 5th Avenue, McBride, BC, Prince George, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-569-2251</SimpleData>
+		<SimpleData name="LOCALITY">Prince George</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Northern Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">53.3009484</SimpleData>
+		<SimpleData name="LONGITUDE">-120.1611559</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Northern Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Northern Interior</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">McBride</SimpleData>
+		<SimpleData name="SEQUENCE_ID">75</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-120.161172081419636,53.30095453982355</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Mills Memorial Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">4720 Haugland Avenue, Terrace, BC, Terrace, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-635-2211</SimpleData>
+		<SimpleData name="LOCALITY">Terrace</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Northern Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">54.51037</SimpleData>
+		<SimpleData name="LONGITUDE">-128.596045</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Northern Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Northwest</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Terrace</SimpleData>
+		<SimpleData name="SEQUENCE_ID">77</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-128.596062997134112,54.510375061658344</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Mission Memorial Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">7324 Hurd Street, Mission, BC, Mission, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">604-826-6261</SimpleData>
+		<SimpleData name="LOCALITY">Mission</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Fraser Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">49.1354834</SimpleData>
+		<SimpleData name="LONGITUDE">-122.3319288</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Fraser Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Fraser East</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Mission</SimpleData>
+		<SimpleData name="SEQUENCE_ID">79</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.331944080393967,49.135489093355176</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Mount Saint Joseph Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">3080 Prince Edward Street, Vancouver, BC, Midtown, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">604-874-1141</SimpleData>
+		<SimpleData name="LOCALITY">Midtown</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Vancouver Coastal</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">49.257817</SimpleData>
+		<SimpleData name="LONGITUDE">-123.096083</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Vancouver Coastal</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Vancouver</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Vancouver</SimpleData>
+		<SimpleData name="SEQUENCE_ID">81</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.096098436194268,49.257822611012998</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Nanaimo Regional General Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">1200 Dufferin Crescent, Nanaimo, BC, Nanaimo, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-755-7691</SimpleData>
+		<SimpleData name="LOCALITY">Nanaimo</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Vancouver Island Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">49.185151</SimpleData>
+		<SimpleData name="LONGITUDE">-123.969955</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Vancouver Island Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Central Vancouver Island</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Nanaimo</SimpleData>
+		<SimpleData name="SEQUENCE_ID">83</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.969970553521833,49.185156506623656</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Nicola Valley Hospital and Health Centre</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">3451 Voght Street, Merritt, BC, Merritt, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-378-2242</SimpleData>
+		<SimpleData name="LOCALITY">Merritt</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Interior Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">50.121854</SimpleData>
+		<SimpleData name="LONGITUDE">-120.773069</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Interior Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Thompson Cariboo Shuswap</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Merritt</SimpleData>
+		<SimpleData name="SEQUENCE_ID">85</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-120.773084288096527,50.121859922108889</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">North Island Hospital, Campbell River &amp; District</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">375 2nd Avenue, Campbell River, BC, Campbell River, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-850-2141</SimpleData>
+		<SimpleData name="LOCALITY">Campbell River</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Vancouver Island Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">50.0087576</SimpleData>
+		<SimpleData name="LONGITUDE">-125.2426311</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Vancouver Island Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">North Vancouver Island</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Campbell River</SimpleData>
+		<SimpleData name="SEQUENCE_ID">87</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-125.242647075714501,50.00876298760425</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">St. Mary's Hospital (Sechelt)</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">5544 Sunshine Coast Hwy, Sechelt, BC, Sunshine Coast, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">604-885-2224</SimpleData>
+		<SimpleData name="LOCALITY">Sunshine Coast</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Vancouver Coastal</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">49.475383</SimpleData>
+		<SimpleData name="LONGITUDE">-123.749021</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Vancouver Coastal</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">North Shore / Coast Garibaldi</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Sechelt</SimpleData>
+		<SimpleData name="SEQUENCE_ID">131</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.749036599011362,49.475388544417115</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">St. Paul's Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">1081 Burrard Street, Vancouver, BC, City Centre, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">604-682-2344</SimpleData>
+		<SimpleData name="LOCALITY">City Centre</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Vancouver Coastal</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">49.280425</SimpleData>
+		<SimpleData name="LONGITUDE">-123.127729</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Vancouver Coastal</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Vancouver</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Vancouver</SimpleData>
+		<SimpleData name="SEQUENCE_ID">133</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.127744447877831,49.280430608510422</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Stuart Lake Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">600 Stuart Drive, Fort St. James, BC, Nechako, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-996-8201</SimpleData>
+		<SimpleData name="LOCALITY">Nechako</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Northern Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">54.440465</SimpleData>
+		<SimpleData name="LONGITUDE">-124.241768</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Northern Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Northern Interior</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Fort St. James</SimpleData>
+		<SimpleData name="SEQUENCE_ID">135</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-124.241785316700458,54.440470648218216</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Surrey Memorial Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">13750 96th Avenue, Surrey, BC, Surrey, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">604-581-2211</SimpleData>
+		<SimpleData name="LOCALITY">Surrey</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Fraser Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">49.175963</SimpleData>
+		<SimpleData name="LONGITUDE">-122.842115</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Fraser Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Fraser South</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Surrey</SimpleData>
+		<SimpleData name="SEQUENCE_ID">137</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.842130373807066,49.175968635941331</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Tofino General Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">261 Neill Street, Tofino, BC, Alberni, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-725-4010</SimpleData>
+		<SimpleData name="LOCALITY">Alberni</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Vancouver Island Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">49.1514166</SimpleData>
+		<SimpleData name="LONGITUDE">-125.9085834</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Vancouver Island Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Central Vancouver Island</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Tofino</SimpleData>
+		<SimpleData name="SEQUENCE_ID">139</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-125.908599231007571,49.151421877923802</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">U.B.C. Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">2211 Wesbrook Mall, Vancouver, BC, Westside, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">604-822-7121</SimpleData>
+		<SimpleData name="LOCALITY">Westside</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Vancouver Coastal</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">49.26419</SimpleData>
+		<SimpleData name="LONGITUDE">-123.245858</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Vancouver Coastal</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Vancouver</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Vancouver</SimpleData>
+		<SimpleData name="SEQUENCE_ID">141</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.2458734623753,49.264195593783413</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">University Hospital of Northern British Columbia</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">1475 Edmonton Street, Prince George, BC, Prince George, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-565-2000</SimpleData>
+		<SimpleData name="LOCALITY">Prince George</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Northern Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">53.911774</SimpleData>
+		<SimpleData name="LONGITUDE">-122.764831</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Northern Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Northern Interior</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Prince George</SimpleData>
+		<SimpleData name="SEQUENCE_ID">143</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.764847866049337,53.9117798285342</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Vancouver General Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">855 W 12TH Avenue, Vancouver, BC, City Centre, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">604-875-4111</SimpleData>
+		<SimpleData name="LOCALITY">City Centre</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Vancouver Coastal</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">49.261149</SimpleData>
+		<SimpleData name="LONGITUDE">-123.123164</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Vancouver Coastal</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Vancouver</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Vancouver</SimpleData>
+		<SimpleData name="SEQUENCE_ID">145</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.123179441047469,49.26115460761487</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Vernon Jubilee Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">2101 32nd Street, Vernon, BC, Vernon, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-545-2211</SimpleData>
+		<SimpleData name="LOCALITY">Vernon</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Interior Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">50.257215</SimpleData>
+		<SimpleData name="LONGITUDE">-119.272568</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Interior Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Okanagan</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Vernon</SimpleData>
+		<SimpleData name="SEQUENCE_ID">147</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-119.27258305949178,50.257221103239317</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Victoria General Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">1 Hospital Way, Victoria, BC, Greater Victoria, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-727-4212</SimpleData>
+		<SimpleData name="LOCALITY">Greater Victoria</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Vancouver Island Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">48.466721</SimpleData>
+		<SimpleData name="LONGITUDE">-123.43261</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Vancouver Island Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">South Vancouver Island</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Victoria</SimpleData>
+		<SimpleData name="SEQUENCE_ID">149</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.432625280971507,48.466726535837488</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">West Coast General Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">3949 Port Alberni Highway, Port Alberni, BC, Alberni, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-731-1370</SimpleData>
+		<SimpleData name="LOCALITY">Alberni</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Vancouver Island Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">49.248667</SimpleData>
+		<SimpleData name="LONGITUDE">-124.782738</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Vancouver Island Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Central Vancouver Island</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Port Alberni</SimpleData>
+		<SimpleData name="SEQUENCE_ID">151</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-124.782753693312515,49.248672413567725</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Wrinch Memorial Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">2510 Highway 62, Hazelton, BC, Upper Skeena, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-842-5211</SimpleData>
+		<SimpleData name="LOCALITY">Upper Skeena</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Northern Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">55.259477</SimpleData>
+		<SimpleData name="LONGITUDE">-127.651405</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Northern Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Northwest</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Hazelton</SimpleData>
+		<SimpleData name="SEQUENCE_ID">153</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-127.651423174690649,55.259482200778947</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">North Island Hospital, Comox Valley</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">101 Lerwick Road, Courtenay, BC, Courtenay, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-339-2242</SimpleData>
+		<SimpleData name="LOCALITY">Courtenay</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Vancouver Island Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">49.7125147</SimpleData>
+		<SimpleData name="LONGITUDE">-124.9696021</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Vancouver Island Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">North Vancouver Island</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Courtenay</SimpleData>
+		<SimpleData name="SEQUENCE_ID">89</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-124.969617950404242,49.712520109240607</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Northern Haida Gwaii Hospital and Health Centre</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">2520 Harrison Avenue, Masset, BC, Queen Charlotte, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-626-4700</SimpleData>
+		<SimpleData name="LOCALITY">Queen Charlotte</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Northern Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">54.019433</SimpleData>
+		<SimpleData name="LONGITUDE">-132.15676</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Northern Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Northwest</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Masset</SimpleData>
+		<SimpleData name="SEQUENCE_ID">91</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-132.156778241024028,54.01943756901079</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Peace Arch District Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">15521 Russell Avenue, White Rock, BC, South Surrey/White Rock, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">604-531-5512</SimpleData>
+		<SimpleData name="LOCALITY">South Surrey/White Rock</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Fraser Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">49.029983</SimpleData>
+		<SimpleData name="LONGITUDE">-122.792281</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Fraser Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Fraser South</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">White Rock</SimpleData>
+		<SimpleData name="SEQUENCE_ID">93</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.792296326910531,49.029988635599267</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Penticton Regional Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">550 Carmi Avenue, Penticton, BC, Penticton, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-492-4000</SimpleData>
+		<SimpleData name="LOCALITY">Penticton</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Interior Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">49.481931</SimpleData>
+		<SimpleData name="LONGITUDE">-119.577878</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Interior Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Okanagan</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Penticton</SimpleData>
+		<SimpleData name="SEQUENCE_ID">95</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-119.577892901600592,49.481937025255604</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Port Hardy Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">9120 Granville Street, Port Hardy, BC, Vancouver Island North, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-902-6011</SimpleData>
+		<SimpleData name="LOCALITY">Vancouver Island North</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Vancouver Island Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">50.720102</SimpleData>
+		<SimpleData name="LONGITUDE">-127.503076</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Vancouver Island Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">North Vancouver Island</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Port Hardy</SimpleData>
+		<SimpleData name="SEQUENCE_ID">97</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-127.503092508220192,50.72010713414754</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Port McNeill and District Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">2750 Kingcome Place, Port McNeill, BC, Vancouver Island North, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-956-4461</SimpleData>
+		<SimpleData name="LOCALITY">Vancouver Island North</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Vancouver Island Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">50.581485</SimpleData>
+		<SimpleData name="LONGITUDE">-127.066851</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Vancouver Island Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">North Vancouver Island</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Port McNeill</SimpleData>
+		<SimpleData name="SEQUENCE_ID">99</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-127.066867405605947,50.58149018368006</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Powell River General Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">5000 Joyce Avenue, Powell River, BC, Powell River, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">604-485-3211</SimpleData>
+		<SimpleData name="LOCALITY">Powell River</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Vancouver Coastal</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">49.851982</SimpleData>
+		<SimpleData name="LONGITUDE">-124.518324</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Vancouver Coastal</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">North Shore / Coast Garibaldi</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Powell River</SimpleData>
+		<SimpleData name="SEQUENCE_ID">101</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-124.518339822357945,49.851987468548216</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Prince Rupert Regional Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">1305 Summit Avenue, Prince Rupert, BC, Prince Rupert, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-624-2171</SimpleData>
+		<SimpleData name="LOCALITY">Prince Rupert</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Northern Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">54.304443</SimpleData>
+		<SimpleData name="LONGITUDE">-130.331583</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Northern Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Northwest</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Prince Rupert</SimpleData>
+		<SimpleData name="SEQUENCE_ID">103</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-130.33160113990354,54.304447821274437</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Princeton General Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">98 Ridgewood Drive, Princeton, BC, Princeton, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-295-3233</SimpleData>
+		<SimpleData name="LOCALITY">Princeton</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Interior Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">49.453747</SimpleData>
+		<SimpleData name="LONGITUDE">-120.527172</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Interior Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Okanagan</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Princeton</SimpleData>
+		<SimpleData name="SEQUENCE_ID">105</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-120.527187062329077,49.453752916103426</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Queen Victoria Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">1200 Newlands Road, Revelstoke, BC, Revelstoke, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-837-2131</SimpleData>
+		<SimpleData name="LOCALITY">Revelstoke</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Interior Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">50.97755</SimpleData>
+		<SimpleData name="LONGITUDE">-118.190547</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Interior Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Thompson Cariboo Shuswap</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Revelstoke</SimpleData>
+		<SimpleData name="SEQUENCE_ID">107</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-118.190562064892205,50.977556268157507</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">R.W. Large Memorial Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">88 Waglisla Street, Wagilsa, BC, Central Coast, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-957-2314</SimpleData>
+		<SimpleData name="LOCALITY">Central Coast</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Vancouver Coastal</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">52.162625</SimpleData>
+		<SimpleData name="LONGITUDE">-128.146</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Vancouver Coastal</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">North Shore / Coast Garibaldi</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Wagilsa</SimpleData>
+		<SimpleData name="SEQUENCE_ID">109</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-128.146017062037458,52.16263008486564</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Richmond General Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">7000 Westminster Highway, Richmond, BC, Richmond, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">604-278-9711</SimpleData>
+		<SimpleData name="LOCALITY">Richmond</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Vancouver Coastal</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">49.169085</SimpleData>
+		<SimpleData name="LONGITUDE">-123.147765</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Vancouver Coastal</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Richmond</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Richmond</SimpleData>
+		<SimpleData name="SEQUENCE_ID">111</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.147780420424667,49.169090601215487</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Ridge Meadows Hospital and Health Care Centre</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">11666 Laity Street, Maple Ridge, BC, Maple Ridge, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">604-463-4111</SimpleData>
+		<SimpleData name="LOCALITY">Maple Ridge</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Fraser Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">49.2153773</SimpleData>
+		<SimpleData name="LONGITUDE">-122.6299747</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Fraser Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Fraser North</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Maple Ridge</SimpleData>
+		<SimpleData name="SEQUENCE_ID">113</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.629990050464883,49.215382962344314</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Royal Columbian Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">330 Columbia Street East, New Westminster, BC, New Westminster, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">604-520-4253</SimpleData>
+		<SimpleData name="LOCALITY">New Westminster</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Fraser Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">49.226396</SimpleData>
+		<SimpleData name="LONGITUDE">-122.891506</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Fraser Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Fraser North</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">New Westminster</SimpleData>
+		<SimpleData name="SEQUENCE_ID">115</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.89152139528224,49.226401632603086</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Royal Inland Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">311 Columbia Street, Kamloops, BC, Kamloops, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-374-5111</SimpleData>
+		<SimpleData name="LOCALITY">Kamloops</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Interior Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">50.670304</SimpleData>
+		<SimpleData name="LONGITUDE">-120.334499</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Interior Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Thompson Cariboo Shuswap</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Kamloops</SimpleData>
+		<SimpleData name="SEQUENCE_ID">117</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-120.334514369588192,50.670310000696212</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Royal Jubilee Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">1952 Bay Street, Victoria, BC, Greater Victoria, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-370-8000</SimpleData>
+		<SimpleData name="LOCALITY">Greater Victoria</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Vancouver Island Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">48.433404</SimpleData>
+		<SimpleData name="LONGITUDE">-123.32728</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Vancouver Island Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">South Vancouver Island</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Victoria</SimpleData>
+		<SimpleData name="SEQUENCE_ID">119</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.327295255749348,48.433409546735625</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Saanich Peninsula Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">2166 Mount Newton Cross Road, Saanichton, BC, Saanich, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-544-7676</SimpleData>
+		<SimpleData name="LOCALITY">Saanich</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Vancouver Island Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">48.595515</SimpleData>
+		<SimpleData name="LONGITUDE">-123.409703</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Vancouver Island Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">South Vancouver Island</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Saanichton</SimpleData>
+		<SimpleData name="SEQUENCE_ID">121</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.409718310578938,48.595520544681825</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Shuswap Lake General Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">601 10th Street NE, Salmon Arm, BC, Salmon Arm, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-833-3600</SimpleData>
+		<SimpleData name="LOCALITY">Salmon Arm</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Interior Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">50.704361</SimpleData>
+		<SimpleData name="LONGITUDE">-119.274513</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Interior Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Thompson Cariboo Shuswap</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Salmon Arm</SimpleData>
+		<SimpleData name="SEQUENCE_ID">123</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-119.274528187999763,50.704367126833731</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">South Okanagan General Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">911 McKinney Road, Oliver, BC, Southern Okanagan, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-498-5000</SimpleData>
+		<SimpleData name="LOCALITY">Southern Okanagan</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Interior Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">49.183757</SimpleData>
+		<SimpleData name="LONGITUDE">-119.53896</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Interior Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Okanagan</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Oliver</SimpleData>
+		<SimpleData name="SEQUENCE_ID">125</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-119.538974815203119,49.183763013645994</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Squamish General Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">38140 Behrner Drive, Squamish, BC, Howe Sound, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">604-892-5211</SimpleData>
+		<SimpleData name="LOCALITY">Howe Sound</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Vancouver Coastal</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">49.699045</SimpleData>
+		<SimpleData name="LONGITUDE">-123.140433</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Vancouver Coastal</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">North Shore / Coast Garibaldi</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Squamish</SimpleData>
+		<SimpleData name="SEQUENCE_ID">127</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.140448564164515,49.699050625045651</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">St. John's Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">3255 Hospital Road, Vanderhoof, BC, Nechako, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-567-2211</SimpleData>
+		<SimpleData name="LOCALITY">Nechako</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Northern Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">54.028414</SimpleData>
+		<SimpleData name="LONGITUDE">-124.011024</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Northern Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Northern Interior</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Vanderhoof</SimpleData>
+		<SimpleData name="SEQUENCE_ID">129</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-124.011041120082027,54.028419668432541</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">100 Mile District General Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">555 Cedar Avenue S, 100 Mile House, BC, 100 Mile House, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-395-7600</SimpleData>
+		<SimpleData name="LOCALITY">100 Mile House</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Interior Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">51.638711</SimpleData>
+		<SimpleData name="LONGITUDE">-121.292214</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Interior Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Thompson Cariboo Shuswap</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">100 Mile House</SimpleData>
+		<SimpleData name="SEQUENCE_ID">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-121.292229831550415,51.638716929839013</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Abbotsford Regional Hospital and Cancer Centre</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">32900 Marshall Road, Abbotsford, BC, Abbotsford, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">604-851-4700</SimpleData>
+		<SimpleData name="LOCALITY">Abbotsford</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Fraser Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">49.036672</SimpleData>
+		<SimpleData name="LONGITUDE">-122.311695</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Fraser Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Fraser East</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Abbotsford</SimpleData>
+		<SimpleData name="SEQUENCE_ID">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.311710250787925,49.036677690907901</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Arrow Lakes Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">97 1st Avenue, Nakusp, BC, Arrow Lakes, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-265-3622</SimpleData>
+		<SimpleData name="LOCALITY">Arrow Lakes</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Interior Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">50.238764</SimpleData>
+		<SimpleData name="LONGITUDE">-117.795027</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Interior Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Kootenay Boundary</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Nakusp</SimpleData>
+		<SimpleData name="SEQUENCE_ID">5</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-117.795041779229905,50.238770271787786</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">BC Children's Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">4480 Oak Street, Vancouver, BC, Provincial Health Services Authority, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">1-888-300-3088</SimpleData>
+		<SimpleData name="LOCALITY">Provincial Health Services Authority</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Provincial Health Services Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">49.244819</SimpleData>
+		<SimpleData name="LONGITUDE">-123.125866</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Provincial Health Services Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Provincial Health Services Authority</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Vancouver</SimpleData>
+		<SimpleData name="SEQUENCE_ID">7</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.125881437601478,49.244824606552847</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Bella Coola General Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">1025 Elcho Street, Bella Coola, BC, Bella Coola Valley, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-799-5311</SimpleData>
+		<SimpleData name="LOCALITY">Bella Coola Valley</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Vancouver Coastal</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">52.373386</SimpleData>
+		<SimpleData name="LONGITUDE">-126.75741</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Vancouver Coastal</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">North Shore / Coast Garibaldi</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Bella Coola</SimpleData>
+		<SimpleData name="SEQUENCE_ID">9</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-126.75742694226787,52.373391268679697</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Boundary Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">7649 - 22nd Street, Grand Forks, BC, Grand Forks, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-443-2100</SimpleData>
+		<SimpleData name="LOCALITY">Grand Forks</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Interior Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">49.029688</SimpleData>
+		<SimpleData name="LONGITUDE">-118.468653</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Interior Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Kootenay Boundary</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Grand Forks</SimpleData>
+		<SimpleData name="SEQUENCE_ID">11</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-118.468667581294824,49.029694123801868</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Bulkley Valley District Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">3950 8th Avenue, Smithers, BC, Smithers, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-847-2611</SimpleData>
+		<SimpleData name="LOCALITY">Smithers</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Northern Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">54.78492</SimpleData>
+		<SimpleData name="LONGITUDE">-127.162874</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Northern Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Northwest</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Smithers</SimpleData>
+		<SimpleData name="SEQUENCE_ID">13</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-127.162891906326877,54.784925261141154</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Burnaby Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">3935 Kincaid Street, Burnaby, BC, Burnaby, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">604-434-4211</SimpleData>
+		<SimpleData name="LOCALITY">Burnaby</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Fraser Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">49.249612</SimpleData>
+		<SimpleData name="LONGITUDE">-123.015554</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Fraser Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Fraser North</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Burnaby</SimpleData>
+		<SimpleData name="SEQUENCE_ID">15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.015569421610223,49.249617619968689</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Burns Lakes and District Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">741 Centre Street, Burns Lake, BC, Burns Lake, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-692-2400</SimpleData>
+		<SimpleData name="LOCALITY">Burns Lake</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Northern Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">54.235479</SimpleData>
+		<SimpleData name="LONGITUDE">-125.761265</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Northern Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Northern Interior</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Burns Lake</SimpleData>
+		<SimpleData name="SEQUENCE_ID">17</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-125.7612824776471,54.235484440467062</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Cariboo Memorial Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">517 North 6th Avenue, Williams Lake, BC, Cariboo-Chilcotin, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-392-4411</SimpleData>
+		<SimpleData name="LOCALITY">Cariboo-Chilcotin</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Interior Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">52.137538</SimpleData>
+		<SimpleData name="LONGITUDE">-122.144132</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Interior Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Thompson Cariboo Shuswap</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Williams Lake</SimpleData>
+		<SimpleData name="SEQUENCE_ID">19</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.144148138169456,52.137543845670677</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Chetwynd General Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">5500 Hospital Road, Chetwynd, BC, Peace River South, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-788-2236</SimpleData>
+		<SimpleData name="LOCALITY">Peace River South</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Northern Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">55.696345</SimpleData>
+		<SimpleData name="LONGITUDE">-121.644453</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Northern Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Northeast</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Chetwynd</SimpleData>
+		<SimpleData name="SEQUENCE_ID">21</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-121.644470376286264,55.696351029698342</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Chilliwack General Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">45600 Menholm Road, Chilliwack, BC, Chilliwack, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">604-795-4141</SimpleData>
+		<SimpleData name="LOCALITY">Chilliwack</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Fraser Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">49.166745</SimpleData>
+		<SimpleData name="LONGITUDE">-121.963504</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Fraser Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Fraser East</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Chilliwack</SimpleData>
+		<SimpleData name="SEQUENCE_ID">23</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-121.963519228831046,49.166750737312029</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Cormorant Island Community Health Centre</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">49 School Road, Alert Bay, BC, Vancouver Island North, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-974-5585</SimpleData>
+		<SimpleData name="LOCALITY">Vancouver Island North</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Vancouver Island Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">50.593906</SimpleData>
+		<SimpleData name="LONGITUDE">-126.943148</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Vancouver Island Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">North Vancouver Island</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Alert Bay</SimpleData>
+		<SimpleData name="SEQUENCE_ID">25</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-126.943164393018762,50.593911199675134</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Cowichan District Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">3045 Gibbins Road, Duncan, BC, Cowichan, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-737-2030</SimpleData>
+		<SimpleData name="LOCALITY">Cowichan</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Vancouver Island Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">48.785701</SimpleData>
+		<SimpleData name="LONGITUDE">-123.722777</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Vancouver Island Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Central Vancouver Island</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Duncan</SimpleData>
+		<SimpleData name="SEQUENCE_ID">27</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.722792408312856,48.785706517309343</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Creston Valley Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">312 - 15th Avenue N, Creston, BC, Creston, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-428-2286</SimpleData>
+		<SimpleData name="LOCALITY">Creston</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Interior Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">49.098388</SimpleData>
+		<SimpleData name="LONGITUDE">-116.507672</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Interior Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">East Kootenay</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Creston</SimpleData>
+		<SimpleData name="SEQUENCE_ID">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-116.507686227555169,49.098394345234048</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Dawson Creek and District Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">11100 13th Street, Dawson Creek, BC, Peace River South, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-782-8501</SimpleData>
+		<SimpleData name="LOCALITY">Peace River South</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Northern Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">55.749448</SimpleData>
+		<SimpleData name="LONGITUDE">-120.235891</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Northern Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Northeast</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Dawson Creek</SimpleData>
+		<SimpleData name="SEQUENCE_ID">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-120.23590813368034,55.749454219774094</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Delta Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">5800 Mountain View Boulevard, Delta, BC, Delta, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">604-946-1121</SimpleData>
+		<SimpleData name="LOCALITY">Delta</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Fraser Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">49.0855596</SimpleData>
+		<SimpleData name="LONGITUDE">-123.0612295</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Fraser Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Fraser South</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Delta</SimpleData>
+		<SimpleData name="SEQUENCE_ID">33</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.061244884656915,49.085565206576668</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Dr. Helmcken Memorial Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">640 Park Drive, Clearwater, BC, North Thompson, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-674-2244</SimpleData>
+		<SimpleData name="LOCALITY">North Thompson</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Interior Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">51.646783</SimpleData>
+		<SimpleData name="LONGITUDE">-120.017886</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Interior Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Thompson Cariboo Shuswap</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Clearwater</SimpleData>
+		<SimpleData name="SEQUENCE_ID">35</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-120.017901607298398,51.646789084781517</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Eagle Ridge Hospital and Health Care Centre</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">475 Guildford Way, Port Moody, BC, Coquitlam, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">604-461-2022</SimpleData>
+		<SimpleData name="LOCALITY">Coquitlam</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Fraser Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">49.285478</SimpleData>
+		<SimpleData name="LONGITUDE">-122.823625</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Fraser Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Fraser North</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Port Moody</SimpleData>
+		<SimpleData name="SEQUENCE_ID">37</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.823640400617109,49.285483643397924</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">East Kootenay Regional Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">13 - 24th Avenue North, Cranbrook, BC, Cranbrook, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-426-5281</SimpleData>
+		<SimpleData name="LOCALITY">Cranbrook</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Interior Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">49.512743</SimpleData>
+		<SimpleData name="LONGITUDE">-115.749413</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Interior Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">East Kootenay</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Cranbrook</SimpleData>
+		<SimpleData name="SEQUENCE_ID">39</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-115.749427184646564,49.51274945576764</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Elk Valley Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">1501 - 5th Avenue, Fernie, BC, Fernie, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-423-4453</SimpleData>
+		<SimpleData name="LOCALITY">Fernie</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Interior Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">49.513621</SimpleData>
+		<SimpleData name="LONGITUDE">-115.056197</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Interior Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">East Kootenay</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Fernie</SimpleData>
+		<SimpleData name="SEQUENCE_ID">41</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-115.05621104408111,49.513627532163042</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Hospital</description>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OCCUPANT_NAME">Fort Nelson General Hospital</SimpleData>
+		<SimpleData name="PHYSICAL_ADDRESS">5315 Liard Street, Fort Nelson, BC, Fort Nelson, BC</SimpleData>
+		<SimpleData name="CONTACT_PHONE">250-774-6916</SimpleData>
+		<SimpleData name="LOCALITY">Fort Nelson</SimpleData>
+		<SimpleData name="BUSINESS_CATEGORY_DESCRIPTION">Hospitals</SimpleData>
+		<SimpleData name="KEYWORDS">Northern Health Authority</SimpleData>
+		<SimpleData name="DATE_UPDATED">2020-02-03T20:32:33.000Z</SimpleData>
+		<SimpleData name="LATITUDE">58.808961</SimpleData>
+		<SimpleData name="LONGITUDE">-122.705072</SimpleData>
+		<SimpleData name="GEOCODING_METHOD_DESCRIPTION">Air Photo</SimpleData>
+		<SimpleData name="HEALTH_AUTHORITY_NAME">Northern Health Authority</SimpleData>
+		<SimpleData name="HEALTH_SERVICE_DLVR_AREA_NAME">Northeast</SimpleData>
+		<SimpleData name="LOCAL_HEALTH_AREA_NAME">Fort Nelson</SimpleData>
+		<SimpleData name="SEQUENCE_ID">43</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.7050910527566,58.808966950654693</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
