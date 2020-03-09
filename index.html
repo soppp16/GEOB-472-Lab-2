@@ -1,0 +1,253 @@
+<!DOCTYPE html><html><head>
+  <title>Leaflet Exercise</title>
+  <meta charset="utf-8">
+
+  <!-- Leaflet styles and code. Place in the <head></head> element. -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css">
+  <script src="leaflet.js"></script>
+  
+  <!--ruler-->
+  <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/gokertanrisever/leaflet-ruler/master/src/leaflet-ruler.css">
+<script src="leaflet-ruler.js"></script>
+
+  
+  <script src="mq-map.js?key=KEY"></script>
+<script src="mq-routing.js?key=KEY"></script>
+
+  
+  <!-- jQuery is a library that simplifies many things in JavaScript. 
+      We'll use it to retrieve data from the web. -->
+  <script src="jquery-3.3.1.min.js"></script>
+
+  <!-- Turf code. -->
+  <script src="turf.min.js"></script>
+  
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+
+<body>
+
+  <div id="mapid" style="width: 600px; height: 400px;"></div>
+  <!-- Our web map will get placed into this div element -->
+
+ 
+  <div id="controls" style="margin: 15px;">
+    <button id="showAllHospitalButton">Show All Hospital</button>
+
+    <!-- <span style="display:inline-block; width: 30px"></span>
+    <input type="text" id="highlightHospitalTextEntry" placeholder="Hospital description">
+    <button id="highlightParkingButton">Highlight</button> -->
+    
+   
+
+   <!-- <div class="slidecontainer">
+      Radius: 
+    <input type="range" min="100" max="1500" value="500"
+             class="slider" id="radiusRange"
+             style="padding: 5px; vertical-align: bottom">
+      <span id="radiusLabel"></span>
+
+  </div>--> 
+  
+<!-- <iframe width="700" height="400" src="http://data.whiterockcity.ca/dataset/busstop/resource/2be187ca-2d34-4db9-b04c-4e4aa5b1684f/view/9ce374c6-087f-4c4c-b70d-340fab9fc07c" frameBorder="0"></iframe> -->
+  
+  <script>
+    // Make a Leaflet map with L.map().
+    // Store the map in the variable 'map'.
+    // "mapid" is the 'id' of the DOM element to contain the map.
+    var map = L.map('mapid', {
+        center: [49.265637, -123],//49.265637, -123.256113
+        zoom: 12//15
+      } // this object holds map options
+    );
+
+    var OpenStreetMap_France = L.tileLayer(
+      'https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
+        maxZoom: 20,
+        attribution: '&copy; Openstreetmap France | &copy; <a href=" ">OpenStreetMap</a > contributors'
+      }
+    ).addTo(map);
+    
+    
+// buffer
+  // buffer
+    //var point = turf.point([-123.112658,49.241930]);
+    
+    // This makes a single GeoJSON feature, a point.
+    // Unlike in Leaflet above, this is longitude then latitude.
+
+    //console.log(point);
+    
+    // Open up the console and you can click into the GeoJSON data.
+
+    // Let's get a 100 km buffer around that point.
+    // The result is a single GeoJSON feature, a polygon. 
+    
+    
+    //var buffered = turf.buffer(point, 5, {
+     // units: 'kilometers'//
+      
+  
+   // });
+
+    
+    // Finally, let's add the GeoJSON
+    // buffer polygon data from above
+    // to the map so we can see the results. 
+    
+    
+   // L.geoJson(buffered).addTo(map); 
+
+       // buffer range 
+     var point = turf.point ([-123.112658,49.241930]);
+    
+    var buffered = turf.buffer(point,5, {//,5,
+      units: 'kilometers'//
+       });
+    
+    var from = turf.point([-123.112658,49.241930]);
+var to = turf.point([ -123.1247690,49.2441746]);
+var options = {units: 'kilometers'};
+
+var distance = turf.distance(from, to, options);
+    
+       L.geoJson(buffered).addTo(map);
+    
+
+    // popup 
+    //https://www.wrld3d.com/wrld.js/latest/docs/examples/adding-a-leaflet-marker-with-popup/
+    var marker = L.marker([49.241930,-123.112658], {
+        //elevation: 260.0,
+        title: " Queen Elizabeth Park"
+      }).addTo(map);
+
+      marker.bindPopup("This is the Queen Elizabeth Park where I like to go during the weekend. Once when I was there an old man fell down, and this experience made me think about how do hospitals are distributed around this Park.").openPopup();
+    
+
+    var hospitalMarkerOptions = {
+      radius: 4,
+      fillColor: "red",
+      color: "#yellow",
+      weight: 1,
+      opacity: 0,
+      fillOpacity: 0.7
+    };
+
+    var hospitalMarkerHighlightedOptions = {
+     radius: 6,
+      fillColor: "purple", // Make highlighted trees orange.
+      color: "purple",
+     weight: 1,
+      opacity: 0,
+      fillOpacity: 0.5
+    };
+
+    
+    
+    function onEachHospital(feature, layer) {
+      if (feature.properties && feature.properties.OCCUPANT_NAME) {
+        layer.bindTooltip(feature.properties.OCCUPANT_NAME);
+      }
+    }
+//OCCUPANT_NAME
+    function hospitalPointToLayer(feature, latlng) {
+      return L.circleMarker(
+        latlng,
+        hospitalMarkerOptions
+      );
+    }
+
+    function hospitalToFilter(feature, layer) {
+      if (occupant_nameToHighlight === "") {
+        return true;
+        // In this case, we're not highlighting anything, so draw everything.
+      } else if (feature.properties && feature.properties.OCCUPANT_NAME) {
+        // We just checked to make sure there are properties to avoid an error
+        //   by asking for the .TAXA when there are no properties.
+        // Now, we need to check to see if the .TAXA *includes* the search string we're
+        //   trying to highlight.
+        return feature.properties.OCCUPANT_NAME.toLowerCase().includes(occupant_nameToHighlight.toLowerCase());
+        // We ignore uppercase/lowercase differences.
+      } else {
+        return false;
+        // This is for features that lack properties.
+        // Don't display them.
+      }
+    }
+
+    var lastLayerAdded = {};
+
+    function addHospital() {
+      if (map.hasLayer(lastLayerAdded)) {
+        map.removeLayer(lastLayerAdded);
+      }
+      lastLayerAdded = L.geoJSON(hospitalGeoJSONdata, {
+        pointToLayer: hospitalPointToLayer,
+        onEachFeature: onEachHospital,
+        filter: hospitalToFilter
+      });
+      lastLayerAdded.addTo(map);
+    };
+
+    var occupant_nameToHighlight = "";
+    // This is set by someone pressing the highlight button.
+    // If it's an empty string, then just draw everything.
+
+    function highlightHospital() {
+      occupant_nameToHighlight = document
+        .getElementById("highlightHospitalTextEntry")
+        .value;
+      addHospital();
+      descriptionToHighlight = ""; // reset so that "Show All Trees" works.
+    }
+
+    var hospitalGeoJSONdata;
+
+    //https://raw.githubusercontent.com/UBCGeodata/ubcv-parking/master/geojson/ubcv_parking_www.geojson
+    // parking ubc 
+    
+    
+    //https://raw.githubusercontent.com/UBCGeodata/ubcv-routes/master/geojson/ubcv_roads_simple.geojson
+    // road simple ubc 
+  
+  //https://hub.arcgis.com/datasets/SIPP::eteam-eteam/data?geometry=-166.091%2C44.460%2C-79.782%2C62.428&layer=25
+    // data bc hospital 
+    $.getJSON("https://delivery.maps.gov.bc.ca/arcgis/rest/services/eteam/eteam/MapServer/25/query?outFields=*&where=1%3D1&f=geojson",
+      function(data) {
+        // Store data for later:
+        hospitalGeoJSONdata = data;
+        // Create event listener for ShowAllTrees Button:
+        document
+          .getElementById("showAllHospitalButton")
+          .addEventListener("click", addHospital);
+
+        //document
+        //  .getElementById("highlightHospitalButton")
+        //  .addEventListener("click", highlightHospital);
+
+      }
+    );
+    
+     L.control.ruler().addTo(map);
+   var options = {
+          position: 'topleft',
+          lengthUnit: {
+            factor: 0.539956803,    //  from km to nm
+            display: 'km',//Nautical Miles
+            decimal: 2
+          }
+        };
+   
+L.control.ruler(options).addTo(map);
+    
+
+
+    
+  </script>
+
+
+
+</div></body></html>
