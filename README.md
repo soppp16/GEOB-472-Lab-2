@@ -11,7 +11,7 @@ this is the screensshot to show how Queen Elizabeth Park is poped up on the map 
 this is the screenshot to show how to measure distance between the Park and hospitals around.(fig.3)
 ![](Screen%20Shot%20for%20meansuring%20distance.png)
 
-Who did you design your map for? What questions or needs does the map attempt to raise or address? In what respects is your map successful and unsuccessful in this?
+
 
 the map was inspireb by my personal experience that once I visited the Elizabeth Park, a old man fell down in front of me, and seem to be wounded. The old man's family was really anxious at that moment, because they  were not that familiar with the surroundings and don't where is the nearest hospital. recalling this experience after taking this class, I think I am able to conduct an interactive map to help the old man and his family to find out the location and name of the nearest or the most appropriate hospital around the park, and how far is the hospital from the park. In addition, to better visualized distances between hospitals and the park, I also create a 5km buffer to frame the hospitals within this area in order to highlight available nearby hospitals(fig.2), as a result, they could directly choose a hosptial from this area without meansuring distances. By showing these information on this interactive map, I think this map would be effective to help the old man and his family to find out hospital more easily. 
 
